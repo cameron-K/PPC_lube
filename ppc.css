@@ -1,0 +1,153 @@
+body{
+	margin:0;	font-family: Arial, Helvetica, Sans-serif;
+}
+
+#container{
+	width: 970px;
+	height: 800px;
+	margin:0 auto;
+	background:url("back.png") repeat-y;
+	background-size: 100%;
+}
+
+#header{
+	width: 970px;
+	height: 120px;
+	margin:0 auto;
+	background:url("header.png") repeat-x;
+	background-size: auto 100%;
+}
+	#header h3{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 200px;
+		margin-top:30px;
+		margin-bottom: 0px;
+	}
+
+	#header img{
+		margin-left: 20px;
+	}
+
+	#header ul{
+		background: url("nav.png") repeat-x;
+		border-top: 1px solid #cecece;
+		margin:0px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+	#header li{
+		display: inline-block;
+		margin:5px 0px;
+	}
+
+	#header a{
+		text-decoration: none;
+		color:#333;
+		padding:5px 10px;
+		border-right: 1px solid #cecece;
+	}
+
+	#header li:first-of-type a{
+		border-left: 1px solid #cecece;
+	}
+
+#imgdiv{
+	width:350px;
+	margin:20px;
+	display: inline-block;
+	border:5px solid white;
+}
+	#imgdiv img{
+		width: 100%;
+	}
+
+#about{
+	margin:20px 20px 20px 0px;
+	width: 500px;
+	height: 246px;
+
+	background-color:rgba(255,255,255,0.3);
+	color:white;
+	font-size: 12px;
+
+	display: inline-block;
+	vertical-align: top;
+	padding:0px 10px 0px 10px;
+}
+
+	#about h3:first-of-type{
+		color:black;
+		width: 510px;
+		background:url("yellowheader.png")repeat-x;
+		background-size: auto 100%;
+		margin-top: 0px;
+		margin-left: -10px;
+		padding:8px 5px;
+	}
+
+
+
+#secondlogo{
+	width:90px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-left:40px;
+	display: inline-block;
+
+}
+
+#newthing{
+	font-size: 12px;
+	color:orange;
+	display:inline-block;
+	vertical-align: top;
+	margin: 0px;
+	margin-top: 3px;
+}
+
+#panelcontainer{
+	text-align: center;
+	padding: 0px 10px 0px 8px;
+}
+
+.panel{
+	display: inline-block;
+	vertical-align: top;
+	background:url("panelback.png") bottom repeat-x,white;
+	width:22%;
+	height:300px;
+	margin-right: 18px;
+	border:2px solid #111;
+}
+
+	.panel p, h4{
+		text-align: left;
+		font-size: 12px;
+		padding:0px 5px;
+	}
+
+	.panel p{
+		height: 82px;
+	}
+
+	.panel h4{
+		margin:0px;
+		padding:8px 5px;
+		background:url("yellowheader.png")repeat-x;
+		background-size: auto 100%;
+	}
+
+	.panel img{
+		width: 100%;
+	}
+
+	.panel input{
+		position:relative;
+		left:40px;
+		vertical-align: bottom;
+		background-color: #F9D14E;
+		border:2px solid black;
+		border-radius:5px 15px 15px 5px;
+	}
