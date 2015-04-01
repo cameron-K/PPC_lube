@@ -1,27 +1,26 @@
 body{
-	margin:0;
-	width:100%;
-	height:100%;
-	font-family: Arial, Helvetica, Sans-serif;
+	margin:0;	font-family: Arial, Helvetica, Sans-serif;
 }
 
 #container{
-	width: 80%;
-	height:100%;
+	width: 970px;
+	height: 800px;
 	margin:0 auto;
-	background-color: black;
+	background:url("back.png") repeat-y;
+	background-size: 100%;
 }
 
 #header{
-	width: 100%;
-	height: 15%;
+	width: 970px;
+	height: 120px;
+	margin:0 auto;
 	background:url("header.png") repeat-x;
 	background-size: auto 100%;
 }
-	#header h2{
+	#header h3{
 		display: inline-block;
 		vertical-align: top;
-		margin-left: 400px;
+		margin-left: 200px;
 		margin-top:30px;
 		margin-bottom: 0px;
 	}
@@ -34,6 +33,9 @@ body{
 		background: url("nav.png") repeat-x;
 		border-top: 1px solid #cecece;
 		margin:0px;
+		font-size: 10px;
+		color:#333;
+		font-weight: bold;
 	}
 
 	#header li{
@@ -43,6 +45,7 @@ body{
 
 	#header a{
 		text-decoration: none;
+
 		padding:5px 10px;
 		border-right: 1px solid #cecece;
 	}
@@ -52,16 +55,24 @@ body{
 	}
 
 #imgdiv{
+	width:350px;
 	margin:20px;
 	display: inline-block;
 	border:5px solid white;
 }
+	#imgdiv img{
+		width: 100%;
+	}
 
 #about{
 	margin:20px 20px 20px 0px;
-	width: 800px;
-	background-color: #888888;
+	width: 500px;
+	height: 246px;
+
+	background-color:rgba(255,255,255,0.3);
 	color:white;
+	font-size: 12px;
+
 	display: inline-block;
 	vertical-align: top;
 	padding:0px 10px 0px 10px;
@@ -69,12 +80,15 @@ body{
 
 	#about h3:first-of-type{
 		color:black;
-		width: 814px;
-		background-color: yellow;
+		width: 510px;
+		background:url("yellowheader.png")repeat-x;
+		background-size: auto 100%;
 		margin-top: 0px;
 		margin-left: -10px;
-		padding: 3px;
+		padding:8px 5px;
 	}
+
+
 
 #secondlogo{
 	width:90px;
@@ -93,3 +107,48 @@ body{
 	margin: 0px;
 	margin-top: 3px;
 }
+
+#panelcontainer{
+	text-align: center;
+	padding: 0px 10px 0px 8px;
+}
+
+.panel{
+	display: inline-block;
+	vertical-align: top;
+	background:url("panelback.png") bottom repeat-x,white;
+	width:22%;
+	height:300px;
+	margin-right: 18px;
+	border:2px solid #111;
+}
+
+	.panel p, h4{
+		text-align: left;
+		font-size: 12px;
+		padding:0px 5px;
+	}
+
+	.panel p{
+		height: 82px;
+	}
+
+	.panel h4{
+		margin:0px;
+		padding:8px 5px;
+		background:url("yellowheader.png")repeat-x;
+		background-size: auto 100%;
+	}
+
+	.panel img{
+		width: 100%;
+	}
+
+	.panel input{
+		position:relative;
+		left:40px;
+		vertical-align: bottom;
+		background-color: #F9D14E;
+		border:2px solid black;
+		border-radius:5px 15px 15px 5px;
+	}
